@@ -194,7 +194,7 @@ system.time(avg2 <- analyze2(filenames))
 
 ```{.output}
    user  system elapsed 
-  0.035   0.000   0.035 
+  0.044   0.004   0.048 
 ```
 
 Note how we add a new column to `out` at each iteration?
@@ -220,7 +220,7 @@ system.time(avg3 <- analyze3(filenames))
 
 ```{.output}
    user  system elapsed 
-  0.033   0.000   0.033 
+  0.047   0.000   0.047 
 ```
 
 In this simple example there is little difference in the compute time of `analyze2` and `analyze3`.
